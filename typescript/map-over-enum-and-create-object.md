@@ -18,20 +18,20 @@ And we want to create an object that will be built on the enum so that whenever 
 Based on the example above, the object's type should look like this:
 ```
 {
- USERS: string
- USER_DETAILS: string
- USER_CHATS: string
+  USERS: string
+  USER_DETAILS: string
+  USER_CHATS: string
 }
 ```
 
 To solve this we can create a helper type:
-```
+```ts
 type ResponsesTypesMapperObject<T> = {
   [K in ResponsesTypes]?: T
 }
 ```
 
 And then our object will be defined as:
-```
+```ts
  const DataMapper:ResponsesTypesMapperObject<string>;
 ```
