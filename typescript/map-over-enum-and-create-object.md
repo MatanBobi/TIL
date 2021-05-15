@@ -33,5 +33,5 @@ type ResponsesTypesMapperObject<T> = {
 
 And then our object will be defined as:
 ```ts
- const DataMapper:ResponsesTypesMapperObject<string>;
+const DataMapper:ResponsesTypesMapperObject<string>;
 ```
