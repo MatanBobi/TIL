@@ -1,0 +1,16 @@
+## Problem
+When setting a color for the background, the font color should have appropriate contrast so the text will be accessible.  
+
+## Solution
+CSS offers us a way to pick a color from a list which has the best contrast.  
+For example when our background color changes from light to dark, we can have two options for font color that rely on the text and background contrast.
+
+```css
+section {
+  background: var(--bg);
+  color: color-contrast(var(--bg) vs white, black);
+}
+```
+
+## Compatability
+This is still incompatible in most browsers.
