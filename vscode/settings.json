@@ -1,19 +1,27 @@
 // This is my settings.json file if anyone's interested in using it :)
 {
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "editor.cursorSmoothCaretAnimation": true,
-    "editor.cursorWidth": 3,
-    "editor.fontFamily": "MonoLisa, Consolas, 'Courier New', monospace",
-    "editor.formatOnSave": true,
-    "editor.bracketPairColorization.enabled": true,
-    "editor.suggest.preview": true,
-    "editor.tabCompletion": "on",
-    "javascript.inlayHints.parameterNames.enabled": "all",
-    "typescript.inlayHints.parameterNames.enabled": "all",
-    "editor.cursorBlinking": "phase",
-    "workbench.colorTheme": "Night Owl",
-    "typescript.preferences.importModuleSpecifier": "non-relative",
-    "editor.guides.bracketPairs": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorWidth": 3,
+  "editor.fontFamily": "MonoLisa, Consolas, 'Courier New', monospace",
+  "editor.formatOnSave": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.suggest.preview": true,
+  "editor.tabCompletion": "on",
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "editor.cursorBlinking": "phase",
+  "workbench.colorTheme": "Night Owl",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "editor.guides.bracketPairs": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
+
