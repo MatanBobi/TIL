@@ -8,21 +8,24 @@
   "editor.fontFamily": "MonoLisa, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.suggest.preview": true,
   "editor.tabCompletion": "on",
+  "editor.minimap.enabled": false,
   "javascript.inlayHints.parameterNames.enabled": "all",
   "typescript.inlayHints.parameterNames.enabled": "all",
   "editor.cursorBlinking": "phase",
   "workbench.colorTheme": "Night Owl",
-  "typescript.preferences.importModuleSpecifier": "non-relative",
   "editor.guides.bracketPairs": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  "editor.bracketPairColorization.enabled": true,
+  "editor.fontSize": 14,
+  "editor.suggest.preview": true,
+  "files.autoSave": "afterDelay",
+  "workbench.editor.wrapTabs": true,
+  "workbench.settings.editor": "json",
+  "extensions.ignoreRecommendations": true,
+  "editor.foldingImportsByDefault": true,
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "editor.inlineSuggest.enabled": true,
+  "gitlens.currentLine.enabled": false
 }
 
