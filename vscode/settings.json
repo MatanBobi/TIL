@@ -20,7 +20,6 @@
   "editor.fontSize": 14,
   "editor.suggest.preview": true,
   "files.autoSave": "afterDelay",
-  "workbench.editor.wrapTabs": true,
   "workbench.settings.editor": "json",
   "extensions.ignoreRecommendations": true,
   "editor.foldingImportsByDefault": true,
