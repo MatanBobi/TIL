@@ -25,6 +25,7 @@
   "editor.foldingImportsByDefault": true,
   "javascript.preferences.importModuleSpecifier": "non-relative",
   "editor.inlineSuggest.enabled": true,
-  "gitlens.currentLine.enabled": false
+  "gitlens.currentLine.enabled": false,
+  "workbench.tree.indent": 20
 }
 
