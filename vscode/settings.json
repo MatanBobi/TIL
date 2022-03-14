@@ -26,6 +26,7 @@
   "javascript.preferences.importModuleSpecifier": "non-relative",
   "editor.inlineSuggest.enabled": true,
   "gitlens.currentLine.enabled": false,
-  "workbench.tree.indent": 20
+  "workbench.tree.indent": 20,
+  "workbench.editor.closeOnFileDelete": true,
 }
 
