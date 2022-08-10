@@ -28,5 +28,7 @@
   "gitlens.currentLine.enabled": false,
   "workbench.tree.indent": 20,
   "workbench.editor.closeOnFileDelete": true,
+  "git.mergeEditor": true,
+  "editor.experimental.stickyScroll.enabled": true
 }
 
