@@ -1,0 +1,12 @@
+## Problem
+Flex element overflows beyond parent if it's content is bigger
+
+## Explanation
+Since Flex elements get a default `min-width` and `min-height` of `auto`, their height and width will be their children's.
+That means that even if a flex element has a parent with `max-width`, the element will still overflow.
+To prevent this, we'll need to set one of the following for width:
+
+```css
+min-width: 0;
+overflow: hidden;
+```
