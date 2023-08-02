@@ -3,7 +3,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorWidth": 3,
   "editor.fontFamily": "MonoLisa, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
@@ -14,8 +14,15 @@
   "typescript.inlayHints.parameterNames.enabled": "all",
   "editor.cursorBlinking": "phase",
   "workbench.colorTheme": "Night Owl",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
   "editor.guides.bracketPairs": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "editor.bracketPairColorization.enabled": true,
   "editor.fontSize": 14,
   "editor.suggest.preview": true,
@@ -26,9 +33,34 @@
   "javascript.preferences.importModuleSpecifier": "non-relative",
   "editor.inlineSuggest.enabled": true,
   "gitlens.currentLine.enabled": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "yaml": true,
+    "javascript": true,
+    "typescript": true,
+    "typescriptreact": true
+  },
   "workbench.tree.indent": 20,
   "workbench.editor.closeOnFileDelete": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "$(capture).js, $(capture).d.ts, $(capture).spec.ts",
+    "*.js": "$(capture).js.map, $(capture).min.js, $(capture).d.ts",
+    "*.jsx": "$(capture).js",
+    "*.tsx": "$(capture).spec.tsx",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, .npmrc, yarn.lock, .yarnrc"
+  },
   "git.mergeEditor": true,
-  "editor.experimental.stickyScroll.enabled": true
+  "editor.stickyScroll.enabled": true,
+  "editor.linkedEditing": true,
+  "markdown.editor.pasteUrlAsFormattedLink.enabled": true,
+  "workbench.colorCustomizations": {
+    "panel.border": "#122D42",
+    "sideBar.border": "#122D42"
+  }
 }
 
