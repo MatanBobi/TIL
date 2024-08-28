@@ -1,0 +1,16 @@
+## Problem
+When working on both OSS and Work on the same machine, one might need to change the `email` corresponding to each type of project (OSS/Work).  
+Doing it manually is extremely frustrating and might be forgotten at some point.
+
+## Solution
+Use git's `[includeIf]` to define a different config for work projects and a different config for OSS projects based on the directory.
+
+```git
+[includeIf "gitdir:~/Dev/Work/"]
+	path = ~/Dev/Work/.gitconfig
+[includeIf "gitdir:~/Dev/OSS/"]
+	path = ~/Dev/OSS/.gitconfig
+```
+
+## Compatability
+This feature is available since git version 2.13.0
